@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@react-monorepo2/orders": ["libs/orders/src/index.ts"],
+      "@react-monorepo2/products": ["libs/products/src/index.ts"],
+      "@react-monorepo2/shared-ui": ["libs/shared/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
